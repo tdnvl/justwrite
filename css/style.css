@@ -1,6 +1,11 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
 .output {
    font-size: 6em;
    min-height: 200px;
+   font-family: 'PT Sans Caption', sans-serif;
 }
 
 #input {
@@ -26,6 +31,7 @@ html {
  }
  body {
    margin-bottom: 60px; /* Margin bottom by footer height */
+   font-family: 'Assistant', serif;
  }
  .footer {
    position: absolute;
@@ -41,5 +47,13 @@ html {
    background-size: cover;
    color: white;
    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+ }
+
+ .lead, .text-muted {
+  font-family: 'Assistant', serif;
+ }
+
+ .btn {
+  font-family: 'PT Sans Caption', sans-serif;
  }
  
