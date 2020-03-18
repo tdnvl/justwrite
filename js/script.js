@@ -13,8 +13,8 @@ function showOneCharacter(event) {
 
 // Grabs the content of the input field and drops it in the <p>
 function saveInput(event){
-    var z = document.getElementById('input').value; // this grabs the value of z (undefined) and inserts it into the input field; the opposite of waht I want tot do
-    document.getElementById("my_input").innerHTML = z; // this works
+    var z = document.getElementById('input').value;
+    document.getElementById("my_input").textContent = z; // Replaced innerHTML with textContent to sanitize the input
 }
 
 // Export content of input field as txt
