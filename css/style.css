@@ -12,6 +12,10 @@
    height: 3rem;
 }
 
+input:focus {
+  outline: 0;
+}
+
 /* Bootstrap 4 specific */
 
 /* Sticky footer styles
